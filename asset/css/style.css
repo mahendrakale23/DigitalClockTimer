@@ -1,0 +1,84 @@
+*{
+	padding:0;
+	margin:0;
+	box-sizing:border-box;
+}
+
+section.header{
+	position:relative;
+	background:linear-gradient(135deg,#14ffe9,#ffeb3b,#ff00e0);
+	height:100vh;
+	font-weight:800;
+	
+	
+	
+}
+#digiClock{
+	color:black;
+	font-size:60px;
+	position:absolute;
+	top:50%;
+	left:50%;
+	transform:translate(-50%,-50%);
+	text-shadow:3px 2px #fff;
+    background:linear-gradient(135deg,#14ffe9,#ffeb3b,#ff00e0);
+	border-radius:10px;
+	width:400px;
+	text-align:center;
+	border:5px;
+	box-shadow:9px 9px 15px black;
+	/* mix-blend-mode:overlay; */
+	
+
+
+	
+}
+.clock{
+	position:absolute;
+	top:35%;
+	left:48%;
+	transform:translate(-35%,-48%);
+	text-shadow:2px 2px 7px blue;
+	font-size:40px;
+}
+
+section.header2{
+	position:relative;
+	background-image:url("../image/image2.jpg");
+	background-size:cover;
+	background-position:10% 70%;
+	height:100vh;
+	font-weight:800;
+	
+}
+#digiClock2{
+	
+	font-size:60px;
+	position:absolute;
+	top:70%;
+	left:50%;
+	transform:translate(-50%,-70%);
+	text-shadow:4px 3px 5px #ff00e0;
+    /* background-color:orange; */
+	border-radius:10px;
+	width:400px;
+	text-align:center;
+	border:5px;
+	opacity:1;
+	color:#fff;
+	mix-blend-mode:overlay;
+	
+
+
+	
+}
+.clock2{
+	position:absolute;
+	top:50%;
+	left:50%;
+	transform:translate(-50%,-50%);
+	text-shadow:4px 3px 10px orange;
+	font-size:40px;
+	opacity:.1;
+	color:#fff;
+}
